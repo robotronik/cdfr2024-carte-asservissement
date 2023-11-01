@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c6b82269-16f5-49e6-8b51-4d12a40a3077)
+
+  (paper "A4")
+
+  (title_block
+    (title "Carte asservissement")
+    (company "Phelma Robotronik")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
