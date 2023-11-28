@@ -1505,6 +1505,41 @@
         )
       )
     )
+    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_Pad_0_1"
+        (circle (center 0 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MountingHole_Pad_1_1"
+        (pin input line (at 0 -2.54 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Regulator_Linear:LM317_SOT-223" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
@@ -4234,6 +4269,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 45.72 391.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 44506373-9538-4d43-b751-d0f531bc93df)
+    (property "Reference" "#PWR078" (at 45.72 397.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 45.72 396.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 45.72 391.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 45.72 391.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 45e35ff5-1809-4de5-aa79-69bf7ca80b0f))
+    (instances
+      (project "Asservissement_CDFR_2023"
+        (path "/aba37299-4f54-471d-ab35-d760532fd54c"
+          (reference "#PWR078") (unit 1)
+        )
+      )
+      (project "cdfr24_asservissement"
+        (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+          (reference "#PWR077") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 112.395 264.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49901ec2-5a92-459b-812e-1fa0ef91abed)
@@ -4473,6 +4538,36 @@
       (project "cdfr24_asservissement"
         (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
           (reference "#PWR065") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 55.88 391.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 55cca4a2-c33a-4d7c-964e-85f0fa2dfa3c)
+    (property "Reference" "#PWR079" (at 55.88 397.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 55.88 396.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 55.88 391.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 55.88 391.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 287abf2d-2d1a-4d22-8312-4b1e4fcf86c1))
+    (instances
+      (project "Asservissement_CDFR_2023"
+        (path "/aba37299-4f54-471d-ab35-d760532fd54c"
+          (reference "#PWR079") (unit 1)
+        )
+      )
+      (project "cdfr24_asservissement"
+        (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -4815,6 +4910,36 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 29.21 388.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6c64cdf5-dc22-4caa-be98-c8acca76fca8)
+    (property "Reference" "H1" (at 31.75 386.0799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 31.75 388.6199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 29.21 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 29.21 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b412ce19-7de9-425f-97e8-1f27103f9854))
+    (instances
+      (project "Asservissement_CDFR_2023"
+        (path "/aba37299-4f54-471d-ab35-d760532fd54c"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "cdfr24_asservissement"
+        (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Conn_ST_STDC14") (at 66.675 212.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d052e05-37c1-419b-ac8c-330c5d9130f3)
@@ -4848,6 +4973,36 @@
       (project "cdfr24_asservissement"
         (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
           (reference "J14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 39.37 388.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6dfa3a8b-b9fc-4d07-a8d9-427d832aec31)
+    (property "Reference" "H2" (at 41.91 386.0799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 41.91 388.6199 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 39.37 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 39.37 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8a880756-1626-4eba-b52f-7b8392e15a46))
+    (instances
+      (project "Asservissement_CDFR_2023"
+        (path "/aba37299-4f54-471d-ab35-d760532fd54c"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "cdfr24_asservissement"
+        (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -4970,6 +5125,36 @@
       (project "cdfr24_asservissement"
         (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
           (reference "#PWR036") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 45.72 388.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 796f36c4-5765-4cd1-b6c5-c7e26fdfd217)
+    (property "Reference" "H3" (at 48.26 386.0799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 48.26 388.6199 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 45.72 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 45.72 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0265312c-06e3-47d9-b2d0-4589aaa1dab6))
+    (instances
+      (project "Asservissement_CDFR_2023"
+        (path "/aba37299-4f54-471d-ab35-d760532fd54c"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "cdfr24_asservissement"
+        (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -5157,6 +5342,36 @@
       (project "cdfr24_asservissement"
         (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
           (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 55.88 388.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 826b7819-e54c-4fac-b510-aba00c59652a)
+    (property "Reference" "H4" (at 58.42 386.0799 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 58.42 388.6199 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (at 55.88 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 55.88 388.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8a94246f-483b-44a3-b637-e8390af31def))
+    (instances
+      (project "Asservissement_CDFR_2023"
+        (path "/aba37299-4f54-471d-ab35-d760532fd54c"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "cdfr24_asservissement"
+        (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -5525,6 +5740,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 39.37 391.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9ce5c69f-a5e8-4c7a-8988-96d2b8ec328d)
+    (property "Reference" "#PWR077" (at 39.37 397.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 39.37 396.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 39.37 391.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 39.37 391.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a6be3da4-fdd7-49f2-9cdb-bcc519a116f5))
+    (instances
+      (project "Asservissement_CDFR_2023"
+        (path "/aba37299-4f54-471d-ab35-d760532fd54c"
+          (reference "#PWR077") (unit 1)
+        )
+      )
+      (project "cdfr24_asservissement"
+        (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+          (reference "#PWR076") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 113.03 248.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1ffc5bc-da13-4b19-a637-34b8bf55c9fb)
@@ -5733,6 +5978,36 @@
       (project "cdfr24_asservissement"
         (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
           (reference "J11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 29.21 391.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b1c34e85-01e9-4e70-ac82-a077f0bce9d4)
+    (property "Reference" "#PWR02" (at 29.21 397.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 29.21 396.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 29.21 391.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 29.21 391.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7bb034d1-4f9d-4427-8a7e-c20f015a94a0))
+    (instances
+      (project "Asservissement_CDFR_2023"
+        (path "/aba37299-4f54-471d-ab35-d760532fd54c"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "cdfr24_asservissement"
+        (path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+          (reference "#PWR075") (unit 1)
         )
       )
     )
