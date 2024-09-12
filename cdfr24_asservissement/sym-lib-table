@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "TVN-5-2411WI")(type "KiCad")(uri "${KIPRJMOD}/libs/TVN-5-2411-WI/TVN.kicad_sym")(options "")(descr ""))
   (lib (name "LittleFuse")(type "KiCad")(uri "${KIPRJMOD}/libs/Fuse/littlefuse.kicad_sym")(options "")(descr ""))
+  (lib (name "L6235")(type "KiCad")(uri "${KIPRJMOD}/libs/L6235D.kicad_sym")(options "")(descr ""))
 )

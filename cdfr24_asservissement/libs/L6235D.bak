@@ -160,7 +160,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 0 -35.56 0) (length 7.62)
+      (pin power_in line (at 0 -35.56 0) (length 7.62)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
