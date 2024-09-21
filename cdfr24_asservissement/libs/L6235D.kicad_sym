@@ -291,7 +291,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -22.86 0)
 				(length 7.62)
 				(name "RCOFF"
@@ -345,7 +345,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -25.4 0)
 				(length 7.62)
 				(name "RCPULSE"
