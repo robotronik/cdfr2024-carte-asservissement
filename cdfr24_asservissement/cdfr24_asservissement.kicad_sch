@@ -9953,6 +9953,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 139.7 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "028b17f9-0f50-4aad-9e5b-f3eb6ca80914")
+		(property "Reference" "NT2"
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01f0b8bb-2ea4-4c10-8eae-69ca06faec28")
+		)
+		(pin "1"
+			(uuid "de49567c-5cff-439d-9934-0f276e3ab7b3")
+		)
+		(instances
+			(project ""
+				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 274.32 275.59 0)
 		(unit 1)
@@ -12949,74 +13017,6 @@
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 139.7 135.89 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52dc4d36-8cd2-498c-ace6-3011ef71fb7f")
-		(property "Reference" "NT1"
-			(at 139.7 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 139.7 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef632783-5ce4-420f-a3a8-b5e8d13b8e6a")
-		)
-		(pin "1"
-			(uuid "cb676e4e-c4c7-4eb5-9f6d-cab00ad14209")
-		)
-		(instances
-			(project ""
-				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
