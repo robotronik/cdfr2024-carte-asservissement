@@ -9821,7 +9821,7 @@
 			)
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10117,7 +10117,7 @@
 			)
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10421,7 +10421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1120602d-3632-4a39-bdf1-3a70c3853484")
-		(property "Reference" "TP7"
+		(property "Reference" "TP4"
 			(at 184.15 50.0379 0)
 			(effects
 				(font
@@ -10472,7 +10472,7 @@
 		(instances
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "TP7")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -11433,7 +11433,7 @@
 			)
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -11449,7 +11449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28583e7f-a171-438e-bcb9-ffe5a152d171")
-		(property "Reference" "TP8"
+		(property "Reference" "TP5"
 			(at 229.87 57.6579 0)
 			(effects
 				(font
@@ -11500,7 +11500,7 @@
 		(instances
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "TP8")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12449,7 +12449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "457fbd3c-8c22-41ab-b352-4319e48698ae")
-		(property "Reference" "TP6"
+		(property "Reference" "TP3"
 			(at 156.21 42.4179 0)
 			(effects
 				(font
@@ -12500,7 +12500,7 @@
 		(instances
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "TP6")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -14200,7 +14200,7 @@
 			)
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -15473,7 +15473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0f899c7-1ddb-495e-bf9e-f2cb94ad134a")
-		(property "Reference" "TP1"
+		(property "Reference" "TP6"
 			(at 459.74 123.6979 0)
 			(effects
 				(font
@@ -15524,7 +15524,7 @@
 		(instances
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "TP1")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -16300,7 +16300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae606d28-d810-4a10-b1ac-24d15534074e")
-		(property "Reference" "TP2"
+		(property "Reference" "TP8"
 			(at 459.74 192.2779 0)
 			(effects
 				(font
@@ -16351,7 +16351,7 @@
 		(instances
 			(project ""
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "TP2")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -16600,7 +16600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f37fef-de22-4ede-8bda-ddb33c56dc47")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 39.37 42.4179 0)
 			(effects
 				(font
@@ -16651,7 +16651,7 @@
 		(instances
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -17007,7 +17007,7 @@
 			)
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -17523,7 +17523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c46e11a9-61ae-4e5d-af56-011949ea4f7c")
-		(property "Reference" "TP4"
+		(property "Reference" "TP1"
 			(at 270.51 34.7979 0)
 			(effects
 				(font
@@ -17574,7 +17574,7 @@
 		(instances
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -17651,7 +17651,7 @@
 			)
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -18256,7 +18256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de284c05-f759-441d-9b0f-5e9ee5dc7008")
-		(property "Reference" "TP3"
+		(property "Reference" "TP7"
 			(at 462.28 188.4679 0)
 			(effects
 				(font
@@ -18307,7 +18307,7 @@
 		(instances
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
-					(reference "TP3")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
