@@ -6666,10 +6666,6 @@
 		(uuid "6791f94d-d3c1-45bd-b42f-9cd270ff9ddd")
 	)
 	(no_connect
-		(at 185.42 232.41)
-		(uuid "7efbd85f-c797-4ad3-9a80-278a471dac90")
-	)
-	(no_connect
 		(at 218.44 280.67)
 		(uuid "91fbbb6f-eed8-49a0-9564-aacf8504a2d2")
 	)
@@ -8147,6 +8143,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 232.41) (xy 181.61 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48c8d0b-5a6e-4442-9e8c-427bc6f9bcdb")
+	)
+	(wire
+		(pts
 			(xy 411.48 74.93) (xy 415.29 74.93)
 		)
 		(stroke
@@ -8557,6 +8563,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 237.49) (xy 175.26 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef68cbc5-5bbd-4c51-8297-0aa71b111002")
+	)
+	(wire
+		(pts
 			(xy 208.28 201.93) (xy 205.74 201.93)
 		)
 		(stroke
@@ -8644,6 +8660,16 @@
 			(type default)
 		)
 		(uuid "f6778f38-4978-4f7d-976c-3d527902cafb")
+	)
+	(wire
+		(pts
+			(xy 185.42 232.41) (xy 181.61 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79367c8-9bfc-4e73-90d0-e62cb8652aa8")
 	)
 	(wire
 		(pts
@@ -14207,6 +14233,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 237.49 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f31da8-edd6-4ad5-8b0b-7aa7351f242e")
+		(property "Reference" "D8"
+			(at 171.1326 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.5926 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 171.45 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28d8a068-ca15-4d5c-89b4-5292d82ea0ba")
+		)
+		(pin "2"
+			(uuid "9a93fbf2-f1c2-4df5-8c54-29f6ed729756")
+		)
+		(instances
+			(project "cdfr24_asservissement"
+				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TVN-5-2411WI:TVN_5-2411WI")
 		(at 71.12 46.99 0)
 		(unit 1)
@@ -14950,6 +15046,73 @@
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 237.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e408aad-001f-4188-8064-4b1cc82c94bf")
+		(property "Reference" "#PWR073"
+			(at 153.67 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 237.4901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23454eb8-bfcd-4e90-b99d-fee1224618d2")
+		)
+		(instances
+			(project "cdfr24_asservissement"
+				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -17008,6 +17171,76 @@
 			(project "cdfr24_asservissement"
 				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 237.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8ed2ccd-4210-4a7f-96c4-9907cb0b7d2a")
+		(property "Reference" "R28"
+			(at 165.1001 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 162.5601 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 163.83 235.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b936221-2e19-4f81-a296-1ed53871911c")
+		)
+		(pin "2"
+			(uuid "33534d05-6084-4459-af47-af2afcc636d3")
+		)
+		(instances
+			(project "cdfr24_asservissement"
+				(path "/c6b82269-16f5-49e6-8b51-4d12a40a3077"
+					(reference "R28")
 					(unit 1)
 				)
 			)
